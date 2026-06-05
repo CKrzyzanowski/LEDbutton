@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from gpiozero import gpiozero
+from gpiozero import LED, Button
 
 app = Flask(__name__)
 
